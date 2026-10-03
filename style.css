@@ -679,7 +679,7 @@ h2 span {
 
     aspect-ratio: 16 / 9;
 
-    object-fit: contain;
+    object-fit: cover;
 
     transition: transform 0.45s ease;
 
