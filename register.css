@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+
+/* ==========================
+        REGISTER PAGE
+========================== */
+
+.register-page {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ==========================
+        REGISTER BOX
+========================== */
+
+.register-box {
+    width: 450px;
+
+    background: var(--white-color);
+
+    padding: 45px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px var(--shadow-color);
+}
+
+.register-box h1 {
+    font-size: 38px;
+
+    margin-bottom: 10px;
+}
+
+.register-box p {
+    color: var(--gray-color);
+
+    margin-bottom: 35px;
+}
+
+
+/* ==========================
+        INPUTS
+========================== */
+
+.register-box input {
+    width: 100%;
+
+    padding: 15px;
+
+    margin-bottom: 18px;
+
+    background: var(--white-color);
+    color: var(--text-color);
+
+    border: 1px solid var(--border-color);
+
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 16px;
+
+    transition: .3s;
+}
+
+.register-box input:focus {
+    border-color: var(--secondary-color);
+}
+
+
+/* ==========================
+        BUTTON
+========================== */
+
+.register-box button {
+    width: 100%;
+
+    padding: 16px;
+
+    border: none;
+
+    border-radius: 35px;
+
+    background: var(--button-color);
+    color: var(--white-color);
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.register-box button:hover {
+    background: var(--button-hover-color);
+}
+
+
+/* ==========================
+        LOGIN LINK
+========================== */
+
+.login-link {
+    text-align: center;
+
+    margin-top: 25px;
+
+    color: var(--gray-color);
+}
+
+.login-link a {
+    text-decoration: none;
+
+    color: var(--text-color);
+
+    font-weight: bold;
+
+    transition: .3s;
+}
+
+.login-link a:hover {
+    color: var(--secondary-color);
+}

@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+
+/*==========================
+          CHECKOUT
+==========================*/
+
+.checkout {
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 60px auto;
+}
+
+.checkout h1 {
+    font-size: 42px;
+
+    margin-bottom: 40px;
+}
+
+
+/*==========================
+        CONTAINER
+==========================*/
+
+.checkout-container {
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+
+    gap: 40px;
+}
+
+
+/*==========================
+      CUSTOMER INFO
+==========================*/
+
+.customer-info {
+    background: var(--white-color);
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    box-shadow: 0 8px 20px var(--shadow-color);
+}
+
+.customer-info h2 {
+    margin-bottom: 25px;
+}
+
+.customer-info input,
+.customer-info textarea {
+    width: 100%;
+
+    padding: 15px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid var(--border-color);
+
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 16px;
+
+    background: var(--white-color);
+    color: var(--text-color);
+}
+
+.customer-info input:focus,
+.customer-info textarea:focus {
+    border-color: var(--secondary-color);
+}
+
+.customer-info textarea {
+    height: 120px;
+
+    resize: none;
+}
+
+
+/*==========================
+        ORDER SUMMARY
+==========================*/
+
+.order-summary {
+    background: var(--white-color);
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    box-shadow: 0 8px 20px var(--shadow-color);
+}
+
+.order-summary h2 {
+    margin-bottom: 25px;
+}
+
+.row {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 18px;
+}
+
+.order-summary hr {
+    margin: 20px 0;
+
+    border: none;
+
+    border-top: 1px solid var(--border-color);
+}
+
+.total {
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+
+/*==========================
+          BUTTON
+==========================*/
+
+.pay-btn {
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    background: var(--button-color);
+
+    color: var(--white-color);
+
+    padding: 16px;
+
+    border-radius: 30px;
+
+    margin-top: 30px;
+
+    transition: .3s;
+}
+
+.pay-btn:hover {
+    background: var(--white-color);
+
+    color: var(--primary-color);
+
+    border: 2px solid var(--primary-color);
+}
